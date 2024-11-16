@@ -5,9 +5,8 @@ import java.time.LocalDate;
 
 public class User {
 	
-	//[Key]
-			
-	private int Id;
+
+
 	private String firstName;
 	private String lastName;
 	private LocalDate dob;
@@ -18,10 +17,10 @@ public class User {
 	private BankAccount account;
 	
 	public User (String username, String password, String firstName
-			,String lastName, LocalDateTime dateOpened) {
+			,String lastName, LocalDateTime dateOpened) { 
 		this.username = username;
 		this.password = password;
-		this.account = new BankAccount();
+		this.account = new BankAccount(); 
 	}
 	
 	public String GetInfo() {

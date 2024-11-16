@@ -16,7 +16,7 @@ public class BankAccount {
     {
     	return balance;
     }
-    
+
     public void Deposit(double amount) {
     	
     	if (amount <= 0) {
@@ -34,7 +34,7 @@ public class BankAccount {
 
 
     }
-    
+
     public void Withdraw(double amount) {
     	
     	//if user has <= o in balance
