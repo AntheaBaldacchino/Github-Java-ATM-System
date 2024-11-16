@@ -21,7 +21,7 @@ public class User {
 			,String lastName, LocalDateTime dateOpened) {
 		this.username = username;
 		this.password = password;
-		this.account = new BankAccount();
+		this.account = new BankAccount(); 
 	}
 	
 	public String GetInfo() {
